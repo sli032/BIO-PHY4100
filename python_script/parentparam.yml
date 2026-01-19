@@ -1,0 +1,28 @@
+Name:
+    key: ['memfile', 'bondflip', 'mbondk', 'mdihedk', 'lj_repel', 'kT', 'runtime', 'info']
+IOfile:
+    memfile: ['T3']
+    gsdfile: ['md']
+    info: ['']
+Coef:
+    bondflip: [ON]    
+    memsize: [0.1]
+    boxL: [20]
+    boxH: [20]
+    seed: [1]
+    mbondk: [10.]
+    mbond_r0: [1.]
+    mdihedk: [1.]
+    mtheta0: [0.]
+    sigma: [10.]
+    lj_repel: [0.01]
+    lj_cut: [3.]
+Integrate:
+    alpha: [1.]
+    dt: [0.001]
+    kT: [0.1]
+    bondflip_kT: [0.1]
+    record_period: [100]
+    bondflip_period: [100]
+    runtime: [200000]
+    annealrun: [True]
